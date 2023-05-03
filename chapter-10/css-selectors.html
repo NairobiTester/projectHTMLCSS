@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS Selectors</title>
+	</head>
+	<body>
+		<h1><a id="top">Kitchen Garden Calendar</a></h1>
+		<p id="introduction">Here you can read our handy guide about what to do when.</p>
+		<h2>Spring</h2>
+		<ul>
+			<li><a href="mulch.html">Spring mulch vegetable beds</a></li>
+			<li><a href="potato.html">Plant out early potatoes</a></li>
+			<li><a href="tomato.html">Sow tomato seeds</a></li>
+			<li><a href="beet.html">Sow beet seeds</a></li>
+			<li><a href="zucchini.html">Sow zucchini seeds</a></li>
+			<li><a href="rhubarb.html">Deadhead rhubarb flowers</a></li>
+		</ul>
+		<p class="note">This page was written by <a href="mailto:jon@example.org">jon@example.org</a> for <a href="http://www.wiley.com">Wiley</a>.</p>
+		<p><a href="#top">Top of page</a></p>
+	</body>
+</html>
+<!---
+* {} - Targets all elements on the page
+h1, h2, h3 {} - Targets the <h1>, <h2> and <h3> elements.
+.note {} - Targets any element whose class attribute has a value of note
+p.note {} - Targets only <p> elements whose class attribute has a value of note
+#introduction {} - Targets the element whose id attribute has a value of introduction.
+li>a {} - Targets any <a> elements that are children of an <li> element (but not other <a> elements in the page)
+p a {} - Targets any <a> elements that sit inside a <p> element, even if there are other elements nested
+between them
+h1+p {} - Targets the first <p> element after any <h1> element (but not other <p> elements)
+h1~p {} - If you had two <p> elements that are siblings of an <h1> element, this rule would apply to both
+-->

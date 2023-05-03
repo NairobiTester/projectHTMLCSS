@@ -1,0 +1,13 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #665544;
+    border: 2px solid #e7642c;
+    padding: 20px;}
+h1, h2, p {
+    border: 2px solid #e7642c;
+    padding: 10px;
+    line-height: 2em;}
+i, a, a:hover, a:visited {
+    color: #665544;
+    border: 2px solid #7fcbae;
+    padding: 5px;}

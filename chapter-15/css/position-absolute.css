@@ -1,0 +1,19 @@
+body {
+    width: 750px;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;}
+h1 {
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    width: 250px;
+    color:#665544;}
+p {
+    width: 450px;
+color:#054d05;}
+
+/**
+Absolute Positioning: When an element is positioned absolutely, it is removed from the normal flow of the 
+document and positioned relative to its closest positioned ancestor (or the body element if there is no 
+positioned ancestor). The element's position is specified using the "top", "right", "bottom", and "left" 
+properties. Absolute positioning is often used for things like pop-up menus or tooltips.**/

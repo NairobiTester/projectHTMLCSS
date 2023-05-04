@@ -1,0 +1,19 @@
+body {
+    width: 750px;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;}
+h1 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: #efefef;}
+p.example {
+    margin-top: 100px;}
+
+/** Fixed Positioning: When an element is positioned fixed, it is removed from the normal flow of the 
+document and positioned relative to the viewport (i.e. the browser window). The element's position is 
+specified using the "top", "right", "bottom", and "left" properties. Fixed positioning is often used for 
+creating things like sticky headers or footers that remain visible as the user scrolls.**/

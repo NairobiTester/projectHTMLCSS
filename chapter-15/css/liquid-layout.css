@@ -1,0 +1,37 @@
+* {
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    text-align: center;}
+body {
+    width: 90%;
+    margin: 0 auto;}
+#content {
+    overflow: auto;}
+#nav, #feature, #footer {
+    margin: 1%;}
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;}
+.column3 {
+    margin-right: 0%;}
+li {
+    display: inline;
+    padding: 0.5em;}
+#nav, #footer {
+    background-color: #dfcedb;
+    padding: 0.5em 0;}
+#feature, .article {
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: #efefef;}
+
+/***
+To create a fixed width layout, the width of the main boxes on a page will usually be specified in pixels (and
+ sometimes their height, too). Here you can see several <div> elements, each of which uses an id or class 
+ attribute to indicate its purpose on the page. In a book like this, the result of both the fixed and liquid 
+ layouts look similar. To get a real feel for them, you need to view them in your browser and see how they
+react when you adjust the size of the browser window. The fixed width layout will stay the same width no 
+matter what size the browser window is, whereas the liquid layout will stretch (or shrink) to fill the
+screen.
+**/

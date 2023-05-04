@@ -1,0 +1,22 @@
+body {
+    width: 750px;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;}
+p {
+    width: 230px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    background-color: #efefef;}
+
+    /***
+    A lot of layouts place boxes next to each other. The float property is commonly used to achieve this.
+When elements are floated, the height of the boxes can affect where the following elements sit.
+In this example, you can see six paragraphs, each of which has a width and a float property set.
+The fourth paragraph (which begins "In 1865, the velocipede...") does not go across to the left hand edge of
+the page as one might expect. Rather it sits right under the third paragraph. The reason for this is that the
+fourth paragraph has space to start under the third paragraph, but it cannot go any further to the left 
+because the second paragraph is in the way. Setting the height of the paragraphs to be the same height as the 
+tallest paragraph would solve this issue, but it is rarely suited to real world designs where the amount of
+text in a paragraph or column may vary. It is more common to use the clear property (see clear.html)
+(discussed on the next page) to solve this issue.**/

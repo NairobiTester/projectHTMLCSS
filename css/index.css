@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;}
+div {
+    width: 300px;
+    float: left;
+    padding: 20px;
+    margin: 0px;
+    vertical-align: top;}
+a {
+    color: #0088dd;
+    text-decoration: none;}
+a:hover {
+    color: #111111;}
+#container {
+    width: 7000px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.section {
+    float: left;
+    border: 1px solid #0088dd;
+    padding: 20px;
+    margin: 20px;}
+.little {
+    font-size: 0.75em;
+    color: #665544;
+    float: right;}
+.css {
+    color: #ee3e80;}

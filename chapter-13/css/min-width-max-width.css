@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #111111;}
+th {
+    border-bottom: 1px solid #0088dd; 
+    text-align: left; 
+    color: #0088dd;
+    font-weight: normal;}
+td {
+    min-width: 150px;
+    min-height: 200px;
+    vertical-align: top;
+    line-height: 1.4em;}
+td.description {
+    min-width: 450px;
+    max-width: 650px;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;}

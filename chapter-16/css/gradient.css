@@ -1,0 +1,39 @@
+#gradient {
+    /* fallback color */
+    background-color: #66cccc; 
+    /* fallback image */
+    background-image: url("images/fallback-image.png"); 
+    /* Firefox 3.6+ */
+    background-image: -moz-linear-gradient(#336666, #66cccc);
+    /* Safari 4+, Chrome 1+ */
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#66cccc), to(#336666));
+    /* Safari 5.1+, Chrome 10+ */
+    background-image: -webkit-linear-gradient(#336666, #66cccc); 
+    /* Opera 11.10+ */
+    background-image: -o-linear-gradient(#336666, #66cccc);    
+       height: 150px;
+    width: 300px;}
+
+    /***
+A gradient in CSS is a way to create a transition between two or more colors, creating a smooth color blend. 
+This can be done using the CSS property background-image, which allows you to specify a gradient as the 
+background for an element. There are two types of gradients: linear and radial. A linear gradient transitions 
+between colors in a straight line, while a radial gradient transitions in a circular pattern from the center 
+point.
+Here is an example of a linear gradient:
+
+background-image: linear-gradient(to bottom, #00bfff, #1e90ff);
+
+This creates a gradient that transitions from #00bfff at the top to #1e90ff at the bottom.
+
+And here is an example of a radial gradient:
+
+background-image: radial-gradient(circle at center, #00bfff, #1e90ff);
+
+This creates a gradient that transitions from #00bfff at the center to #1e90ff at the edges, in a circular 
+pattern.
+
+Gradients can also be customized further with various CSS properties such as background-size, background-position, 
+and background-repeat. Overall, gradients are a powerful tool for adding visual interest to websites and 
+web applications.
+**/

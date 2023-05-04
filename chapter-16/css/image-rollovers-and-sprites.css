@@ -1,0 +1,59 @@
+a.button {
+    height: 36px;
+    background-image: url("../images/button-sprite.jpg");
+    text-indent: -9999px;
+    display: inline-block;}
+a#add-to-basket {
+    width: 174px;
+    background-position: 0px 0px;}
+a#framing-options {
+    width: 210px;
+    background-position: -175px 0px;}
+a#add-to-basket:hover {
+    background-position: 0px -40px;}
+a#framing-options:hover {
+    background-position: -175px -40px;}
+a#add-to-basket:active {
+    background-position: 0px -80px;}
+a#framing-options:active {
+    background-position: -175px -80px;}
+
+/***
+Image rollovers and sprites are commonly used techniques in CSS for enhancing website interactivity and 
+reducing page load times. An image rollover occurs when an image changes its appearance when the user 
+interacts with it, typically by hovering the mouse over it. This can be achieved in CSS by using 
+the :hover pseudo-class along with the background-image property to specify the different images for 
+the rollover state. Here's an example:
+
+.button {
+  background-image: url('button.png');
+}
+
+.button:hover {
+  background-image: url('button-rollover.png');
+}
+
+In this example, the button.png image is used as the default state, and the button-rollover.png image is used 
+as the rollover state. 
+
+Image sprites, on the other hand, involve combining multiple images into a single file, and then using CSS to 
+display only the portion of the image that is needed for a particular element. This can reduce page load times 
+by reducing the number of HTTP requests required to load all the images. 
+Here's an example: 
+
+.sprite {
+  background-image: url('sprites.png');
+  background-position: 0 0;
+  width: 50px;
+  height: 50px;
+}
+
+.sprite:hover {
+  background-position: -50px 0;
+}
+
+In this example, the sprites.png file contains multiple images, and the background-position property is 
+used to specify the coordinates of the portion of the image to be displayed for each element. 
+The :hover pseudo-class is used to change the position of the background image to display a different 
+image when the user interacts with the element.
+**/
